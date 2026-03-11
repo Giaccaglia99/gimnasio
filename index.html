@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PowerGym</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>PowerGym</h1>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#horarios">Horarios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="inicio">
+    <h2>Transforma tu cuerpo</h2>
+    <p>Entrena con los mejores equipos y entrenadores</p>
+    <button>Únete ahora</button>
+</section>
+
+<section class="servicios" id="servicios">
+    <h2>Servicios</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Musculación</h3>
+            <p>Equipamiento completo para entrenar fuerza.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cardio</h3>
+            <p>Cintas, bicicletas y elípticas de última generación.</p>
+        </div>
+
+        <div class="card">
+            <h3>Clases</h3>
+            <p>Crossfit, yoga, spinning y más.</p>
+        </div>
+    </div>
+</section>
+
+<section class="horarios" id="horarios">
+    <h2>Horarios</h2>
+    <p>Lunes a Viernes: 6:00 - 22:00</p>
+    <p>Sábados: 8:00 - 18:00</p>
+    <p>Domingos: Cerrado</p>
+</section>
+
+<section class="contacto" id="contacto">
+    <h2>Contacto</h2>
+    <section class="contacto" id="contacto">
+    <h2>Contacto</h2>
+
+    <form name="contacto" method="POST" data-netlify="true" id="formContacto">
+
+        <input type="hidden" name="form-name" value="contacto">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="mensaje" placeholder="Mensaje"></textarea>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <p id="mensajeExito" style="display:none;">Mensaje enviado correctamente ✅</p>
+
+</section>
+
+<footer>
+    <p>© 2026 PowerGym</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

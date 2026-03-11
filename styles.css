@@ -1,0 +1,138 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#111;
+color:white;
+}
+
+/* Header */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#000;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ff3c3c;
+}
+
+/* Hero */
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1554284126-aa88f22d8b74");
+background-size:cover;
+background-position:center;
+}
+
+.hero h2{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero button{
+margin-top:20px;
+padding:12px 30px;
+border:none;
+background:#ff3c3c;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+.hero button:hover{
+background:#ff1f1f;
+}
+
+/* Servicios */
+
+.servicios{
+padding:60px 20px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#1c1c1c;
+padding:30px;
+border-radius:10px;
+width:250px;
+}
+
+/* Horarios */
+
+.horarios{
+padding:60px;
+text-align:center;
+background:#181818;
+}
+
+/* Contacto */
+
+.contacto{
+padding:60px;
+text-align:center;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+max-width:400px;
+margin:auto;
+}
+
+input, textarea{
+padding:10px;
+border:none;
+border-radius:5px;
+}
+
+button{
+padding:10px;
+border:none;
+background:#ff3c3c;
+color:white;
+cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:20px;
+background:black;
+}
